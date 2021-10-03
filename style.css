@@ -139,12 +139,6 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
-
-.sub_div {
-   position: absolute;
-   bottom: 0px;
- }
-
 /* Transition  */
 
 .select:hover::after {
