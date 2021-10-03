@@ -9,11 +9,6 @@ background-image: -webkit-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 background-image: -moz-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 background-image: -o-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-
-  
-
-
-  
 }
 header {
   font-family: "Arial Black", sans-serif;
@@ -144,6 +139,12 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
+
+.sub_div {
+   position: absolute;
+   bottom: 0px;
+ }
+
 /* Transition  */
 
 .select:hover::after {
